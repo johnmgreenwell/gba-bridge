@@ -66,6 +66,8 @@ The schematic and PCB CAD files as developed in KiCad provide the required compo
 
 ![Schematic](images/gba_bridge_schematic.png)
 
+Gerber files generated from the PCB layout in KiCad are also available.
+
 ![PCB Layout](images/gba_bridge_layout_oshpark.png)
 
 ## License
