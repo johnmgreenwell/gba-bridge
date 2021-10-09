@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 1/30/2014 8:17:25 PM
+#
+$CMP 5V_LDO
+D Undervoltage sensing circuit (TP-226AA package)
+F onsemi/mc34064.pdf
+$ENDCMP
+#
+#End Doc Library

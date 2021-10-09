@@ -1,0 +1,185 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 6/4/2014 6:50:36 PM
+
+BeginCmp
+TimeStamp = /53338C9D;
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53338CA4;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AED9E;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AEF4A;
+Reference = C4;
+ValeurCmp = 0.33uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AF051;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AEF39;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534DBCE7;
+Reference = D1;
+ValeurCmp = G_LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534DBCF3;
+Reference = D2;
+ValeurCmp = R_LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AD670;
+Reference = IC1;
+ValeurCmp = ATMEGA325-A;
+IdModule  = TQFP_64_14x14mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AECD3;
+Reference = P1;
+ValeurCmp = USB_P;
+IdModule  = usb_micro_sm;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AE1C8;
+Reference = P2;
+ValeurCmp = ICSP;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AE6A7;
+Reference = P3;
+ValeurCmp = SD_CARD;
+IdModule  = sd_card_sm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5334C564;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534ADED0;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AE110;
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AEC2F;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AEC43;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AEC47;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534DBCF7;
+Reference = R7;
+ValeurCmp = 330;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534DBCFC;
+Reference = R8;
+ValeurCmp = 330;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534DBD30;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = tact_switch1;
+EndCmp
+
+BeginCmp
+TimeStamp = /534DBD34;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = tact_switch1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53339322;
+Reference = U1;
+ValeurCmp = GBA_HEADER;
+IdModule  = gba_header;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AEEF7;
+Reference = U2;
+ValeurCmp = 3v3_LDO;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AD9A4;
+Reference = U3;
+ValeurCmp = LCD_TEXT;
+IdModule  = pin_array_1x16;
+EndCmp
+
+BeginCmp
+TimeStamp = /53338C60;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = xtal_sm_1;
+EndCmp
+
+EndListe

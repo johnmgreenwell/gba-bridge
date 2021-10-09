@@ -1,0 +1,374 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 3V3-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF 3V3-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 100 40 H I C CNN
+F1 "3V3-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 0 125 40 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 60 0 0 N
+P 6 0 1 0 0 60 20 40 0 90 -20 40 0 60 0 60 N
+X 3V3 1 0 0 0 U 30 30 0 0 W N
+ENDDRAW
+ENDDEF
+#
+# 5V_LDO-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF 5V_LDO-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue U 0 20 Y Y 1 F N
+F0 "U" 50 200 60 H V C CNN
+F1 "5V_LDO-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 300 -190 60 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -150 200 150 0 1 0 N
+X Out 1 350 50 150 L 60 40 1 1 C
+X In 2 -350 50 150 R 60 40 1 1 I
+X Gnd 3 0 -300 150 U 60 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ATMEGA325-A-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF ATMEGA325-A-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue IC 0 40 Y Y 1 F N
+F0 "IC" -1100 1850 50 H V L BNN
+F1 "ATMEGA325-A-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 550 -1900 50 H V L BNN
+F2 "TQFP64" -950 -1850 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -1100 1800 1100 -1800 0 1 0 f
+X (PCINT8/~SS~)PB0 10 1300 800 200 L 40 40 1 1 B
+X (PCINT9/SCK)PB1 11 1300 700 200 L 40 40 1 1 B
+X (PCINT10/MOSI)PB2 12 1300 600 200 L 40 40 1 1 B
+X (PCINT11/MISO)PB3 13 1300 500 200 L 40 40 1 1 B
+X (PCINT12/OC0A)PB4 14 1300 400 200 L 40 40 1 1 B
+X (PCINT13/OC1A)PB5 15 1300 300 200 L 40 40 1 1 B
+X (PCINT14/OC1B)PB6 16 1300 200 200 L 40 40 1 1 B
+X (PCINT15/OC2A)PB7 17 1300 100 200 L 40 40 1 1 B
+X PG3(T1) 18 -1300 300 200 R 40 40 1 1 B
+X PG4(T0) 19 -1300 200 200 R 40 40 1 1 B
+X PE0(RXD/PCINT0) 2 -1300 -1000 200 R 40 40 1 1 B
+X PG5(~RESET~) 20 -1300 100 200 R 40 40 1 1 I
+X VCC 21 -250 2000 200 D 40 40 1 1 W
+X GND 22 -100 -2000 200 U 40 40 1 1 W
+X XTAL2(TOSC2) 23 -1300 1700 200 R 40 40 1 1 B
+X XTAL1(TOSC1) 24 -1300 1400 200 R 40 40 1 1 B
+X (ICP1)PD0 25 1300 -1000 200 L 40 40 1 1 B
+X (INT0)PD1 26 1300 -1100 200 L 40 40 1 1 B
+X PD2 27 1300 -1200 200 L 40 40 1 1 B
+X PD3 28 1300 -1300 200 L 40 40 1 1 B
+X PD4 29 1300 -1400 200 L 40 40 1 1 B
+X PE1(TXD/PCINT1) 3 -1300 -1100 200 R 40 40 1 1 B
+X PD5 30 1300 -1500 200 L 40 40 1 1 B
+X PD6 31 1300 -1600 200 L 40 40 1 1 B
+X PD7 32 1300 -1700 200 L 40 40 1 1 B
+X PG0 33 -1300 600 200 R 40 40 1 1 B
+X PG1 34 -1300 500 200 R 40 40 1 1 B
+X PC0 35 1300 -100 200 L 40 40 1 1 B
+X PC1 36 1300 -200 200 L 40 40 1 1 B
+X PC2 37 1300 -300 200 L 40 40 1 1 B
+X PC3 38 1300 -400 200 L 40 40 1 1 B
+X PC4 39 1300 -500 200 L 40 40 1 1 B
+X PE2(AIN0/XCK/PCINT2) 4 -1300 -1200 200 R 40 40 1 1 B
+X PC5 40 1300 -600 200 L 40 40 1 1 B
+X PC6 41 1300 -700 200 L 40 40 1 1 B
+X PC7 42 1300 -800 200 L 40 40 1 1 B
+X PG2 43 -1300 400 200 R 40 40 1 1 B
+X PA7 44 1300 1000 200 L 40 40 1 1 B
+X PA6 45 1300 1100 200 L 40 40 1 1 B
+X PA5 46 1300 1200 200 L 40 40 1 1 B
+X PA4 47 1300 1300 200 L 40 40 1 1 B
+X PA3 48 1300 1400 200 L 40 40 1 1 B
+X PA2 49 1300 1500 200 L 40 40 1 1 B
+X PE3(AIN1/PCINT3) 5 -1300 -1300 200 R 40 40 1 1 B
+X PA1 50 1300 1600 200 L 40 40 1 1 B
+X PA0 51 1300 1700 200 L 40 40 1 1 B
+X VCC 52 -150 2000 200 D 40 40 1 1 W
+X GND 53 0 -2000 200 U 40 40 1 1 W
+X PF7(ADC7/TDI) 54 -1300 -800 200 R 40 40 1 1 B
+X PF6(ADC6/TDO) 55 -1300 -700 200 R 40 40 1 1 B
+X PF5(ADC5/TMS) 56 -1300 -600 200 R 40 40 1 1 B
+X PF4(ADC4/TCK) 57 -1300 -500 200 R 40 40 1 1 B
+X PF3(ADC3) 58 -1300 -400 200 R 40 40 1 1 B
+X PF2(ADC2) 59 -1300 -300 200 R 40 40 1 1 B
+X PE4(USCK/SCL/PCINT4) 6 -1300 -1400 200 R 40 40 1 1 B
+X PF1(ADC1) 60 -1300 -200 200 R 40 40 1 1 B
+X PF0(ADC0) 61 -1300 -100 200 R 40 40 1 1 B
+X AREF 62 -1300 1050 200 R 40 40 1 1 B
+X GND 63 100 -2000 200 U 40 40 1 1 W
+X AVCC 64 150 2000 200 D 40 40 1 1 W
+X PE5(DI/SDA/PCINT5) 7 -1300 -1500 200 R 40 40 1 1 B
+X PE6(DO/PCINT6) 8 -1300 -1600 200 R 40 40 1 1 B
+X PE7(CLKO/PCINT7) 9 -1300 -1700 200 R 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# C-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF C-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "C-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 50 -100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_3X2-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF CONN_3X2-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue P 0 40 Y N 1 F N
+F0 "P" 0 250 50 H V C CNN
+F1 "CONN_3X2-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 0 50 40 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 200 100 -100 0 1 0 N
+X 1 1 -400 150 300 R 60 60 1 1 P I
+X 2 2 400 150 300 L 60 60 1 1 P I
+X 3 3 -400 50 300 R 60 60 1 1 P I
+X 4 4 400 50 300 L 60 60 1 1 P I
+X 5 5 -400 -50 300 R 60 60 1 1 P I
+X 6 6 400 -50 300 L 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# CONN_5-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF CONN_5-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue P 0 40 Y Y 1 F N
+F0 "P" -50 0 50 V V C CNN
+F1 "CONN_5-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 50 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 250 100 -250 0 1 0 f
+X ~ 1 -400 200 300 R 60 60 1 1 P I
+X ~ 2 -400 100 300 R 60 60 1 1 P I
+X ~ 3 -400 0 300 R 60 60 1 1 P I
+X ~ 4 -400 -100 300 R 60 60 1 1 P I
+X ~ 5 -400 -200 300 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# CONN_9-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF CONN_9-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue P 0 40 Y N 1 F N
+F0 "P" -50 0 60 V V C CNN
+F1 "CONN_9-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 50 0 60 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 450 100 -450 0 1 0 N
+X P1 1 -350 400 250 R 50 50 1 1 P I
+X P2 2 -350 300 250 R 50 50 1 1 P I
+X P3 3 -350 200 250 R 50 50 1 1 P I
+X P4 4 -350 100 250 R 50 50 1 1 P I
+X P5 5 -350 0 250 R 50 50 1 1 P I
+X P6 6 -350 -100 250 R 50 50 1 1 P I
+X P7 7 -350 -200 250 R 50 50 1 1 P I
+X P8 8 -350 -300 250 R 50 50 1 1 P I
+X P9 9 -350 -400 250 R 50 50 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# CP1-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF CP1-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue C 0 10 N N 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "CP1-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 50 -100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+A 0 -200 180 563 1236 0 1 15 N 100 -50 -100 -50
+T 0 -50 100 80 0 0 0 + Normal 0 C C
+P 4 0 1 15 -100 50 100 50 50 50 50 50 N
+X ~ 1 0 200 150 D 40 40 1 1 P
+X ~ 2 0 -200 180 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GBA_Header-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF GBA_Header-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue U 0 40 Y N 1 F N
+F0 "U" 0 100 70 H V C CNN
+F1 "GBA_Header-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 150 0 70 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 -1350 -50 -1400 N
+P 2 0 1 0 -50 1350 -50 -1350 N
+P 2 0 1 0 50 -1400 50 -1350 N
+P 2 0 1 0 50 -1350 50 1350 N
+P 2 0 1 0 50 1350 -50 1350 N
+P 4 0 1 0 -50 -1400 -50 -1950 50 -1950 50 -1400 N
+X VCC 1 -350 1250 300 R 60 60 1 1 P I
+X A4 10 -350 350 300 R 60 60 1 1 P I
+X A5 11 -350 250 300 R 60 60 1 1 P I
+X A6 12 -350 150 300 R 60 60 1 1 P I
+X A7 13 -350 50 300 R 60 60 1 1 P I
+X A8 14 -350 -50 300 R 60 60 1 1 P I
+X A9 15 -350 -150 300 R 60 60 1 1 P I
+X A10 16 -350 -250 300 R 60 60 1 1 P I
+X A11 17 -350 -350 300 R 60 60 1 1 P I
+X A12 18 -350 -450 300 R 60 60 1 1 P I
+X A13 19 -350 -550 300 R 60 60 1 1 P I
+X PHI 2 -350 1150 300 R 60 60 1 1 P I
+X A14 20 -350 -650 300 R 60 60 1 1 P I
+X A15 21 -350 -750 300 R 60 60 1 1 P I
+X D0 22 -350 -850 300 R 60 60 1 1 P I
+X D1 23 -350 -950 300 R 60 60 1 1 P I
+X D2 24 -350 -1050 300 R 60 60 1 1 P I
+X D3 25 -350 -1150 300 R 60 60 1 1 P I
+X D4 26 -350 -1250 300 R 60 60 1 1 P I
+X D5 27 -350 -1350 300 R 50 50 1 1 P I
+X D6 28 -350 -1450 300 R 50 50 1 1 P I
+X D7 29 -350 -1550 300 R 50 50 1 1 P I
+X WR 3 -350 1050 300 R 60 60 1 1 P I
+X CS2 30 -350 -1650 300 R 50 50 1 1 P I
+X IRQ 31 -350 -1750 300 R 50 50 1 1 P I
+X GND 32 -350 -1850 300 R 50 50 1 1 P I
+X RD 4 -350 950 300 R 60 60 1 1 P I
+X CS 5 -350 850 300 R 60 60 1 1 P I
+X A0 6 -350 750 300 R 60 60 1 1 P I
+X A1 7 -350 650 300 R 60 60 1 1 P I
+X A2 8 -350 550 300 R 60 60 1 1 P I
+X A3 9 -350 450 300 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# GND-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF GND-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 0 30 H I C CNN
+F1 "GND-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 0 -70 30 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 4 0 1 0 -50 0 0 -50 50 0 -50 0 N
+X GND 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LCD_TEXT-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF LCD_TEXT-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 -100 50 H V C CNN
+F1 "LCD_TEXT-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 0 100 50 H V C CNN
+F2 "MODULE" 0 0 50 H I C CNN
+F3 "DOCUMENTATION" 0 0 50 H I C CNN
+DRAW
+S -450 -950 450 950 1 0 0 N
+X GND 1 -750 750 300 R 50 50 1 1 W
+X D3 10 -750 -150 300 R 50 50 1 1 B
+X D4 11 -750 -250 300 R 50 50 1 1 B
+X D5 12 -750 -350 300 R 50 50 1 1 B
+X D6 13 -750 -450 300 R 50 50 1 1 B
+X D7 14 -750 -550 300 R 50 50 1 1 B
+X LED+ 15 -750 -650 300 R 50 50 1 1 P
+X LED- 16 -750 -750 300 R 50 50 1 1 P
+X VDD 2 -750 650 300 R 50 50 1 1 W
+X VO 3 -750 550 300 R 50 50 1 1 P
+X RS 4 -750 450 300 R 50 50 1 1 I
+X R/W 5 -750 350 300 R 50 50 1 1 I
+X E 6 -750 250 300 R 50 50 1 1 I
+X D0 7 -750 150 300 R 50 50 1 1 B
+X D1 8 -750 50 300 R 50 50 1 1 B
+X D2 9 -750 -50 300 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# LED-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF LED-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 50 50 -50 N
+P 3 0 1 0 -50 50 50 0 -50 -50 F
+P 3 0 1 0 65 -40 110 -80 105 -55 N
+P 3 0 1 0 80 -25 125 -65 120 -40 N
+X A 1 -200 0 150 R 40 40 1 1 P
+X K 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF R-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 0 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 12 N
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_PUSH-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF SW_PUSH-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue SW 0 40 N N 1 F N
+F0 "SW" 150 110 50 H V C CNN
+F1 "SW_PUSH-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -170 50 170 60 0 1 0 N
+P 4 0 1 0 -40 60 -30 90 30 90 40 60 N
+X 1 1 -300 0 200 R 60 60 0 1 P I
+X 2 2 300 0 200 L 60 60 0 1 P I
+ENDDRAW
+ENDDEF
+#
+# crystal_4pad-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue
+#
+DEF crystal_4pad-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue X 0 40 N N 1 F N
+F0 "X" 200 -150 60 H V C CNN
+F1 "crystal_4pad-MyParts-gba_bridge_v2-rescue-gba_bridge_v2-rescue-gba_bridge_v2-rescue" 0 150 60 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 16 -100 100 -100 -100 N
+P 2 0 1 16 100 100 100 -100 N
+P 5 0 1 12 -50 50 50 50 50 -50 -50 -50 -50 50 f
+X 1 1 -300 0 200 R 40 40 1 1 P
+X GND 2 -50 -300 200 U 50 50 1 1 I
+X 3 3 300 0 200 L 40 40 1 1 P
+X GND 4 50 -300 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
